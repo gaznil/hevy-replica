@@ -1,0 +1,43 @@
+feature,area,priority,original,clone,notes,phase,source
+Sets reps and weight,workout,must,yes,no,Documented only; mobile flow unobserved,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Warmup drop and failure sets,workout,must,yes,no,Documented only,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Supersets,workout,must,yes,no,Documented only,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Previous exercise performance,workout,must,yes,no,Documented only,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Rest timer,workout,must,yes,no,Documented only,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Plate calculator,workout,must,yes,no,Documented only,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+RPE tracking,workout,must,yes,no,Documented only,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Warmup calculator,workout,must,yes,no,Hevy Pro; no pricing chosen for our app,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Custom routines,routines,must,yes,no,Own implementation and templates,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Preset program library,routines,must,yes,no,Create or license our own content,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Personal records,analytics,must,yes,no,Calculation rules still to specify,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Estimated one rep max,analytics,must,yes,no,Formula and rounding need evidence,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Workout volume and consistency,analytics,must,yes,no,Documented only,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Muscle activity and set counts,analytics,must,yes,no,Documented only,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Body measurements,analytics,must,yes,no,Private by default,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Exercise library and custom exercises,exercises,must,yes,no,Own or licensed exercise data,1,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Exercise guidance media,exercises,must,yes,no,Own or licensed videos; target assets excluded,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Trainer programs and progression,programming,must,yes,no,Do not describe programming as a missing Hevy feature,2,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Following feed and comments,social,must,yes,no,Requires new community and backend,4,https://www.hevyapp.com/features/social-features/
+Routine sharing and saves,social,must,yes,no,Source-linked details still to inventory,4,https://www.hevyapp.com/features/social-features/
+Strava connection,integrations,must,yes,no,New provider approval and consent required,5,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Apple Watch and Wear OS,wearables,must,yes,no,Separate companion projects and hardware tests,5,https://www.hevyapp.com/
+Web access,platforms,must,yes,no,Explicit later platform scope decision needed,5,https://www.hevyapp.com/
+Offline workout logging,storage,must,yes,no,Existing Hevy capability,1,https://www.hevyapp.com/compare/fitbod/
+Multi-device synchronization,storage,must,yes,no,Ownership and conflict handling needed,3,https://help.hevyapp.com/hc/en-us/articles/33106320824727-Everything-You-Need-to-Know-About-the-Hevy-App-2026-Features-Guide
+Three note levels,workout,must,yes,no,Exercise routine and workout notes,2,https://www.hevyapp.com/community-updates/october-26/
+ChatGPT and MCP integration,assistants,must,yes,no,Already exists in Hevy; not a novel extra,5,https://www.hevyapp.com/hevy-mcp/
+Coach plans and communication,coaching,must,yes,no,Existing Hevy Coach connection; directory is separate,4c,https://www.hevyapp.com/features/strength-coach/
+Food photo nutrition estimate,nutrition,must,unknown,no,User requested; do not assert absent from Hevy,1b,user request 2026-11-01
+Food chat average estimate,nutrition,must,unknown,no,User requested; explicit average portions and corrections,1b,user request 2026-11-01
+Manual food input,nutrition,must,unknown,no,Recommended fallback when images or analysis unavailable,1b,design proposal
+Supported nutrients and daily totals,nutrition,must,unknown,no,Source-backed servings; missing nutrients remain unknown,1b,https://fdc.nal.usda.gov/api-guide/
+Saved meals and recipes,nutrition,should,unknown,no,Proposed improvement; corrections not repeated analysis,1b,design proposal
+Social identity links,creators,must,unknown,no,User requested; ownership verification distinct from link,4b,user request 2026-11-01
+Nearby freelance trainer directory,marketplace,must,unknown,no,User requested raw idea; area selection and trust design,4c,user request 2026-11-01
+Trainer and member roles,marketplace,must,unknown,no,User requested distinct experiences; one app proposed,4c,user request 2026-11-01
+Trainer subscriptions or commissions,billing,could,unknown,no,Undecided raw idea; no payment implementation approved,later,user request 2026-11-01
+Broad free feature access,plans,must,unknown,no,User requested; quotas and prices deliberately deferred,later,user request 2026-11-01
+Premium interface across both phones,design,must,unknown,no,User requested; observed reference comparison still needed,all,user request 2026-11-01
+Assistant permission scopes,assistants,should,unknown,no,Proposed improvement; consent confirmation and revocation,5,design proposal
+Voice and barcode food entry,nutrition,could,unknown,no,Proposed later extension; not confirmed scope,later,design proposal
+Existing Hevy community and licensed content,nontransferable,could,yes,skip,Build own community and obtain own media; not transferable,none,https://www.hevyapp.com/
