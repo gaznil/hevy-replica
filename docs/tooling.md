@@ -18,7 +18,7 @@ Date: 2026-11-01. No app dependencies or cloud services have been provisioned.
 - Skill installed under `C:\Users\gazni\.codex\skills\reverse-engineer-anything`.
 - Skill and connection/recovery guide read.
 - npm runtime selected: `rea-agents@6.8.0`. Node `v24.22.1` satisfies its published engine requirement.
-- Runtime package acquisition/setup check is still in progress. Skill installation alone does not register MCP, and no live REA tool connection is confirmed.
+- Runtime setup was attempted with `npx --yes rea-agents@6.8.0 setup --client codex --dry-run --json`. npm dependency downloads were slow and stopped making visible progress, so this read-only attempt was interrupted. No setup plan completed, no MCP registration was applied, and no live REA tool connection is confirmed. Retry runtime setup when a concrete runtime investigation needs it; the installed skill is ready to read now.
 - No analysis engine, Hevy package, account access, or target runtime session has been installed or obtained.
 
 ## Superpowers
@@ -33,3 +33,12 @@ Date: 2026-11-01. No app dependencies or cloud services have been provisioned.
 - Public repository: https://github.com/gaznil/hevy-replica
 - Standard hosted runners for public repositories are free under GitHub's current billing rules; larger runners are billed. Source: https://docs.github.com/en/billing/concepts/product-billing/github-actions
 - CI has not been enabled. Application checks will be defined from the approved stack, rather than installing a nonfunctional workflow before any code exists.
+
+## Setup verification
+
+- All eleven Replica `SKILL.md` files and the REA `SKILL.md` exist at their installation locations.
+- Feature matrix audit: 42 unique rows, required fields present, all seven named product requirement groups present, no implemented-feature claims.
+- Replica's installed `parity.py` successfully reads the feature matrix: 41 counted rows plus one explicit exclusion; 0% implemented, 37 must-have rows outstanding. This is an initial inventory score, not an exhaustive Hevy screen inventory.
+- Initial repository documents passed `git diff --cached --check` before the first commit.
+- GitHub reports the repository PUBLIC and nonempty. Initial project documents are published on `main`.
+- No app tests, phone builds, screen comparisons, runtime analysis, or CI runs have happened.

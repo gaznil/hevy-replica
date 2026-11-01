@@ -8,7 +8,7 @@
 - [x] Confirm audience: other people as well as the user.
 - [x] Record extension request; distinguish proposals from verified missing features.
 - [ ] Offer visual companion only when a concrete visual comparison needs it.
-- [x] Record three approaches and recommended first slice in the proposal; product-owner presentation/review remains pending.
+- [x] Present phased implementation as recommended, with UI-only and all-at-once alternatives recorded in the proposal. Product-owner approval remains pending.
 - [ ] Receive design approval.
 - [ ] Write and commit the approved design.
 - [ ] Self-review for ambiguity, contradictions, placeholders, and scope.

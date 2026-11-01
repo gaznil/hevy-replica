@@ -4,11 +4,13 @@ A fitness app for both Android and iPhone, intended for other people to use. Use
 
 # STATUS
 
-2026-11-01, Asia/Calcutta. Project setup and initial public-source research underway. No application code, production service, account integration, or mobile build exists.
+2026-11-01, Asia/Calcutta. Dedicated folder, public GitHub repository, initial research, product brief, roadmap and design proposal created. Initial project documents published. All eleven Replica skills and the REA workflow skill installed. No application code, production service, account integration, or mobile build exists.
 
 Confirmed: both phone platforms; product for other people; public repository to avoid drawing standard public CI from the private-repository minutes allowance. Requested extras: food-photo nutrition estimates AND a chat box for describing food with average estimates when needed; linked Instagram/social profiles for creators; nearby freelance trainer discovery with distinct trainer/member experiences; mostly available free features with usage limits and pricing deferred; premium interface matching or improving the Hevy experience. Trainer subscriptions and business model remain raw ideas, not settled requirements.
 
 Superpowers brainstorming is active. The proposed first-release design is not approved. Full feature parity remains the overall ambition; a first release does not replace that scope.
+
+Verification: 42 feature rows audited, Replica parity reader works and correctly reports 0% implementation, all 12 installed skill entry files exist, public repository is nonempty, and initial documents passed Git whitespace checks. REA runtime package/setup attempt was interrupted after slow dependency downloads; MCP is not registered. This is separate from the completed REA skill installation.
 
 # WHERE THINGS LIVE
 
@@ -47,7 +49,7 @@ Superpowers brainstorming is active. The proposed first-release design is not ap
 
 # QUEUE
 
-1. Finish and verify tool setup; record exact status in `docs/tooling.md`.
+1. Complete: verify installed skills and public repository; exact tool status is in `docs/tooling.md`. Finish REA runtime/MCP setup when needed for a concrete runtime investigation.
 2. Review the consolidated product brief and approve the proposed first product slice before implementation.
 3. Complete mobile screen/flow evidence and feature inventory without claiming unseen states.
 4. Write and review the approved design, then create a detailed Superpowers implementation plan.
